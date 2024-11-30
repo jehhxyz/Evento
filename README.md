@@ -38,6 +38,6 @@ Gostaria de agradecer a **Michelli Brito** pelo vídeo inspirador que foi uma gr
 
 🎥 **Vídeo da Michelli Brito**: [Assista ao vídeo aqui](https://www.youtube.com/watch?v=OHn1jLHGptw)
 
-👩‍💻👨‍💻 **Participantes:**
+👩‍💻👨‍💻 **Participantes do Projeto:**
 - Davi Correia das Neves (Front-End).
 - Jessica Neves Silva (Back-End).
