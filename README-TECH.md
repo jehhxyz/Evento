@@ -107,7 +107,7 @@ Localize o arquivo DataConfiguration (presente na pasta Model) e application.pro
 Certifique-se de que a extensão “SpringBoot Dashboard” da Microsoft é VMware está instalada (caso esteja utilizando a IDE Vscode) e logo inicie o servidor.
 
 	4.	Acessar a Aplicação:
-Abra o navegador e acesse: http://localhost:8080/eventos.
+Abra o navegador e acesse: http://localhost:8080/.
 
 **Events:**
     •   inicial: página inicial estilizada em CSS do style contendo informações sobre o site, contato e os eventos disponíveis e poder logar em uma conta.
