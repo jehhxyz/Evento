@@ -40,4 +40,4 @@ Gostaria de agradecer a **Michelli Brito** pelo vídeo inspirador que foi uma gr
 
 👩‍💻👨‍💻 **Participantes do Projeto:**
 - [Davi Correia das Neves](https://github.com/davicnves) (Front-End).
-- [Jessica Neves Silva](https:/github.com/jehhxyz) (Back-End).
+- [Jessica Neves Silva](https://github.com/jehhxyz) (Back-End).
