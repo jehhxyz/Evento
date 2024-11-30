@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(135deg, #1a1a40, #3b0c59);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-wrapper {
+    background-color: #1b1b68;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+.brand-logo {
+    color: #00ffff !important;
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #ff00ff, 0 0 15px #00ffff;
+}
+
+.btn {
+    background-color: #12d6c5 !important;
+    color: #ffffff !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #00ffff !important;
+    color: #ff00ff !important;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"] {
+    border: 1px solid #00ffff;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 10px #00ffff;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus {
+    border-color: #ff00ff;
+    box-shadow: 0 0 15px #ff00ff, 0 0 20px #00ffff;
+}
+
+.container {
+    background: rgba(27, 27, 104, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ffff, 0 0 30px #ff00ff;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+th {
+    background: rgba(0, 255, 255, 0.2);
+    font-weight: bold;
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff;
+}
+
+tr:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.material-icons {
+    color: #ffffff !important;
+}

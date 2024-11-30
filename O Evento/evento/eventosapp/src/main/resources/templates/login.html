@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="/style/login.css">
+    <link rel="icon" href="/img/logo.webp" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Exibe a mensagem de erro ou sucesso passada com addFlashAttribute -->
+    <div class="alert alert-danger" th:if="${not #strings.isEmpty(mensagem)}">
+        <p th:text="${mensagem}"></p>
+    </div>
+
+    <div class="login-container">
+        <form id="loginForm" action="/login" method="post">
+            <div class="login-row">
+                <label for="user">User:</label>
+                <input type="text" id="user" name="username" placeholder="Digite seu nome">
+            </div>
+            <div class="login-row">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="password" placeholder="Digite sua senha">
+            </div>
+            <div class="login-row">
+                <button class="nav-button" type="submit">Entrar</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="/scripts/script.js"></script>
+</body>
+
+</html>

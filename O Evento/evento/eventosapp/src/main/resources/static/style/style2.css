@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(135deg, #1a1a40, #3b0c59);
+    color: #ffffff;
+}
+
+.neon-nav {
+    background-color: #1b1b68;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+.neon-text {
+    color: #00ffff;
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #ff00ff, 0 0 15px #00ffff;
+}
+
+.neon-button {
+    background-color: #12d6c5;
+    color: #ffffff;
+    font-size: 16px;
+    position: relative;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff;
+}
+
+.neon-button:hover {
+    background-color: #00ffff;
+    color: #ff00ff;
+}
+
+.neon-input {
+    border: 1px solid #00ffff;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 10px #00ffff;
+}
+
+.neon-container {
+    background: rgba(27, 27, 104, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ffff, 0 0 30px #ff00ff;
+}

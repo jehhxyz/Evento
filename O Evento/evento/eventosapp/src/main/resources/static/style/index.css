@@ -1,0 +1,129 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos da barra de navegação */
+.navbar {
+    position: fixed; /* Fixa no topo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px 20px;
+    background-color: #1b1b68;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    color: #fff;
+    z-index: 3; /* Acima de outros elementos */
+}
+
+.logo {
+    height: 70px;
+    width: auto;
+}
+
+.nav-button {
+    background-color: #12d6c5; 
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: all 0.3s ease;
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-button:hover {
+    background-color: #00ffff;
+    color: #ff00ff;
+    box-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff, 0 0 30px #ff00ff;
+}
+
+/* GIF de fundo */
+.gif-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.gif-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Conteúdo centralizado */
+.info-container {
+    position: absolute; /* Centralizado sobre o GIF */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #12e6df;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    z-index: 2; /* Acima do GIF, mas abaixo da navbar */
+}
+
+/* Containers adicionais */
+.extra-info-container {
+    position: relative;
+    z-index: 1; /* Sobre o GIF */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 30px 20px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 10px;
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto; /* Centralizado horizontalmente */
+    margin-top: calc(100vh - 220px); /* Empurra para baixo */
+}
+
+.info-block {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+    color: #12e6df;
+    padding: 20px;
+    background-color: rgba(27, 27, 104, 0.8); 
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Rodapé */
+.footer {
+    background-color: rgb(27, 27, 104);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 3;
+}
+
+.footer a {
+    color: #d110c7;
+    text-decoration: none;
+}
